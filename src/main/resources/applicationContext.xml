@@ -7,12 +7,5 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="musicBean"
-          class="study.oop.springdemo1.RockMusic">
-    </bean>
-
-    <bean id="musicPlayer" class="study.oop.springdemo1.MusicPlayer">
-        <constructor-arg ref="musicBean"/>
-    </bean>
-
+    <context:component-scan base-package="study.oop.springdemo1"/>
 </beans>
