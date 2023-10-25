@@ -8,14 +8,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8c3b40-a040-451d-8d94-4c777a3e330a" name="Changes" comment="">
+    <list default="true" id="eb8c3b40-a040-451d-8d94-4c777a3e330a" name="Changes" comment="lesson 9-11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/study/oop/springdemo1/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/oop/springdemo1/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/oop/springdemo1/Genre.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/study/oop/springdemo1/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/oop/springdemo1/Music.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/study/oop/springdemo1/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/oop/springdemo1/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/study/oop/springdemo1/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/oop/springdemo1/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/study/oop/springdemo1/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/oop/springdemo1/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson-9-11" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
@@ -55,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "lesson-9",
+    "git-widget-placeholder": "lesson-12-13",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -109,6 +116,15 @@
       <workItem from="1698034606812" duration="1058000" />
       <workItem from="1698220860311" duration="437000" />
     </task>
+    <task id="LOCAL-00001" summary="lesson 9-11">
+      <option name="closed" value="true" />
+      <created>1698233147212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698233147212</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +135,10 @@
     <option featureType="dependencySupport" implementationName="executable:docker" />
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
     <option featureType="dependencySupport" implementationName="maven-packaging:war" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson 9-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 9-11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

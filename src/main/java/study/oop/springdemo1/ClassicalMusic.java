@@ -1,15 +1,24 @@
 package study.oop.springdemo1;
 
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Scope;
 
-import java.util.Arrays;
-import java.util.List;
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
-@Component
+@Scope("singleton")
 public class ClassicalMusic implements Music {
-    List<String> songs = Arrays.asList("Hungarian Rhapsody", "Ave Maria", "Bolero");
+    @PostConstruct
+    public void doInit() {
+        System.out.println("Do init classical");
+    }
+
+    @PreDestroy
+    public void doDestroy() {
+        System.out.println("Do destroy classical");
+    }
+
     @Override
-    public List<String> getSongs() {
-        return songs;
+    public String getSong() {
+        return "Hungarian Rhapsody";
     }
 }
